@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RedBus">
+    <test name="ticket-booking1">
+        <parameter name="browser" value="chrome"></parameter>
+        <packages>
+            <package name="com.metlife.testsuites"></package>
+        </packages>
+    </test>
+    <test name="ticket-booking2">
+        <parameter name="browser" value="edge"></parameter>
+        <packages>
+            <package name="com.metlife.testsuites"></package>
+        </packages>
+    </test>
+</suite>
